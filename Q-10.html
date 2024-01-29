@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q-10</title>
+</head>
+<body>
+    <script type="text/JavaScript">
+        let a = parseInt(prompt("Enter the value of A :- "));
+        let b = parseInt(prompt("Enter the value of B :- "));
+        let ch = parseInt(prompt("Enter the choice :- + - * /  "));
+        
+        switch (ch) {
+            case 1:
+                document.write(`<h1>your sum is = ${a + b}</h1>`);
+                break;
+
+            case 2:
+                document.write(`<h1>your subtraction is = ${a - b}</h1>`);
+                break;
+
+            case 3:
+                document.write(`<h1>your multiplication is = ${a * b}</h1>`);
+                break;
+
+            case 4:
+                document.write(`<h1>your division is = ${a / b}</h1>`);
+                break;
+
+            default:
+                document.write(`<h1>Invalid choice...</h1>`);
+                break;
+        }
+    </script>
+</body>
+</html>

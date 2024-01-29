@@ -1,0 +1,53 @@
+<!-- 6.Write a Javascript program to input marks of five subjects Physics, Chemistry, Biology, Mathematics and Computer. Calculate percentage and grade according to following -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q-6</title>
+</head>
+<body>
+    <script type="text/JavaScript">
+        let s1 = parseInt(prompt("Enter the marks of Physics :- "));
+        let s2 = parseInt(prompt("Enter the marks of Chemistry :- "));
+        let s3 = parseInt(prompt("Enter the marks of Biology :- "));
+        let s4 = parseInt(prompt("Enter the marks of Mathematics :- "));
+        let s5 = parseInt(prompt("Enter the marks of Computer :- "));
+        let sum;
+        let pr;
+        sum = s1 + s2 + s3 + s4 + s5;
+        pr = sum / 500 ;
+        if(pr >= 90)
+        {
+            document.write(`<h1>You have got an A grade</h1>`);
+            document.write(`<h1>Exellent....</h1>`);
+        }
+        else if(pr >= 80 && pr < 90 )
+        {
+            document.write(`<h1>You have got an B grade</h1>`);
+            document.write(`<h1>Very good..</h1>`);
+        }
+        else if(pr >= 70 && pr < 80 )
+        {
+            document.write(`<h1>You have got an C grade</h1>`);
+            document.write(`<h1>Good</h1>`);
+        }
+        else if(pr >= 60 && pr < 70 )
+        {
+            document.write(`<h1>You have got an D grade</h1>`);
+            document.write(`<h1>Average</h1>`);
+        }
+        else if(pr >= 50 && pr < 60 )
+        {
+            document.write(`<h1>You have got an E grade</h1>`);
+            document.write(`<h1>Not bad</h1>`);
+        }
+        else if(pr >= 40 && pr < 50 )
+        {
+            document.write(`<h1>You have got an F grade</h1>`);
+            document.write(`<h1>Next time... you can do it better</h1>`);
+        }
+    </script>
+</body>
+</html>

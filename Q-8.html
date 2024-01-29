@@ -1,0 +1,50 @@
+<!-- 8. Write a JavaScript program to find week day from first letter of it using if else if.
+Ex. User Input: M
+Output: Monday -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q-8</title>
+</head>
+<body>
+    <script type="text/JavaScript">
+        let day = prompt("Enter the first letter of day :- ");
+        switch (day) {
+            case 'M':
+                document.write(`<h1>Monday</h1>`);
+                break;
+
+            case 'T':
+                document.write(`<h1>Tuesday</h1>`);
+                break;
+
+            case 'W':
+                document.write(`<h1>Wednesday</h1>`);
+                break;
+
+            case 'Th':
+                document.write(`<h1>Thursday</h1>`);
+                break;
+
+            case 'F':
+                document.write(`<h1>Friday</h1>`);
+                break;
+
+            case 'St':
+                document.write(`<h1>Saturday</h1>`);
+                break;
+
+            case 'Sn':
+                document.write(`<h1>Sunday</h1>`);
+                break;
+
+            default:
+                document.write(`<h1>Invalid choice for day</h1>`);
+                break;
+        }
+    </script>
+</body>
+</html>
